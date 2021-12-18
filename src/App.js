@@ -1,15 +1,23 @@
 import './App.css';
+import { useEffect, useState } from 'react';
 import Footer from './components/Footer';
+// import Navigation from './components/Navigation';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Project from './components/Project';
+// import Project from './components/Project';
+import Content from './components/Content';
 
 function App() {
+
+  // const [display, setDisplay] = useState('about');
+
+  // useEffect(() => {
+  //   console.log('loaded')
+  // }, [])
+
   return (
-    <div className="react-portfolio">
+    <div>
       <Header />
-      <Navigation />
-      <Project />
+      <Content />
       <Footer />
     </div>
   );

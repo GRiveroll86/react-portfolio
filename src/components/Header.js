@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import styles from '../styles/Header.module.css';
+import Navigation from './Navigation';
 
-function Header(){
+
+function Header() {
 
     return (
-        <>
-            <div class={styles.heading}>Header Component</div>
-        </>
+        <div className={styles.container}>
+            <h1 className={styles.title}>Greg Riveroll</h1>
+            <Navigation />
+        </div>
     )
 }
 

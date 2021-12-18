@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navBar {
+    display: inline-flex;
+    font-size: 24px;
+    justify-content: flex-end;
+}
+
+.navLink:hover {
+    cursor: pointer;
+    justify-content: flex-end;
+}
